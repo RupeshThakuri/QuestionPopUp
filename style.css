@@ -1,0 +1,54 @@
+body {
+    background-color: aquamarine;
+}
+
+.hide-info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    color: goldenrod;
+}
+
+.hide-info--container {
+    margin: 20px 0;
+}
+
+.visible {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 30px;
+}
+
+.visible img {
+    width: 25px;
+    height: 30px;
+}
+
+.invisible {
+    display: none;
+}
+
+.hide-info--container {
+    background-color: goldenrod;
+    border-radius: 10px;
+    text-align: center;
+    width: 50em;
+    padding: 1.2em;
+}
+
+.minus {
+    position: absolute;
+    display: none;
+}
+
+.jadoo {
+    display: none;
+}
